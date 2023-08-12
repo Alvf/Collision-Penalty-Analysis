@@ -1,0 +1,407 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+COMPRESSION_INSTABILITY	COMPRESSION_INSTABILITY.h	/^class COMPRESSION_INSTABILITY : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+COMPRESSION_INSTABILITY_H	COMPRESSION_INSTABILITY.h	/^#define COMPRESSION_INSTABILITY_H$/;"	d
+CURLY_HAIRBALL	CURLY_HAIRBALL.h	/^class CURLY_HAIRBALL : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+CURLY_HAIRBALL_H	CURLY_HAIRBALL.h	/^#define CURLY_HAIRBALL_H$/;"	d
+CURLY_WISPBALL	CURLY_WISPBALL.h	/^class CURLY_WISPBALL : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+CURLY_WISPBALL_H	CURLY_WISPBALL.h	/^#define CURLY_WISPBALL_H$/;"	d
+DVT_END_TWEAK	DVT_END_TWEAK.h	/^class DVT_END_TWEAK : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+DVT_END_TWEAK_H	DVT_END_TWEAK.h	/^#define DVT_END_TWEAK_H$/;"	d
+DVT_POINT_SMASH	DVT_POINT_SMASH.h	/^class DVT_POINT_SMASH : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+DVT_POINT_SMASH_H	DVT_POINT_SMASH.h	/^#define DVT_POINT_SMASH_H$/;"	d
+DVT_SCRAMBLE	DVT_SCRAMBLE.h	/^class DVT_SCRAMBLE : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+DVT_SCRAMBLE_H	DVT_SCRAMBLE.h	/^#define DVT_SCRAMBLE_H$/;"	d
+HAIRBALL	HAIRBALL.h	/^class HAIRBALL : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+HAIRBALL_H	HAIRBALL.h	/^#define HAIRBALL_H$/;"	d
+HAIRBALL_UNSTABLE	HAIRBALL_UNSTABLE.h	/^class HAIRBALL_UNSTABLE : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+HAIRBALL_UNSTABLE_H	HAIRBALL_UNSTABLE.h	/^#define HAIRBALL_UNSTABLE_H$/;"	d
+HOBAK	COMPRESSION_INSTABILITY.h	/^namespace HOBAK {$/;"	n
+HOBAK	CURLY_HAIRBALL.h	/^namespace HOBAK {$/;"	n
+HOBAK	CURLY_WISPBALL.h	/^namespace HOBAK {$/;"	n
+HOBAK	DVT_END_TWEAK.h	/^namespace HOBAK {$/;"	n
+HOBAK	DVT_POINT_SMASH.h	/^namespace HOBAK {$/;"	n
+HOBAK	DVT_SCRAMBLE.h	/^namespace HOBAK {$/;"	n
+HOBAK	HAIRBALL.h	/^namespace HOBAK {$/;"	n
+HOBAK	HAIRBALL_UNSTABLE.h	/^namespace HOBAK {$/;"	n
+HOBAK	MULTI_STRAND_SCENE.h	/^namespace HOBAK {$/;"	n
+HOBAK	SANDBOX.h	/^namespace HOBAK {$/;"	n
+HOBAK	SINGLE_STRAND_INSTABILITY.h	/^namespace HOBAK {$/;"	n
+HOBAK	STRAIGHT_STRAND_SCENE.h	/^namespace HOBAK {$/;"	n
+HOBAK	STRAND_COLLISION_SCENE.h	/^namespace HOBAK {$/;"	n
+HOBAK	STRAND_DVT_SCENE.h	/^namespace HOBAK {$/;"	n
+HOBAK	STRAND_GRID_SCENE.h	/^namespace HOBAK {$/;"	n
+HOBAK	STRAND_LINE_SCENE.h	/^namespace HOBAK {$/;"	n
+HOBAK	STRAND_L_SCENE.h	/^namespace HOBAK {$/;"	n
+HOBAK	STRAND_POINT_SMASH.h	/^namespace HOBAK {$/;"	n
+HOBAK	STRAND_SCENE.h	/^namespace HOBAK {$/;"	n
+HOBAK	STRAND_SCRAMBLE.h	/^namespace HOBAK {$/;"	n
+HOBAK	STRAND_WAVE_SCENE.h	/^namespace HOBAK {$/;"	n
+HOBAK	TET_MULTI_WISP_SCENE.h	/^namespace HOBAK {$/;"	n
+HOBAK	TET_TWIRL_SCENE.h	/^namespace HOBAK {$/;"	n
+HOBAK	TET_WISP_SCENE.h	/^namespace HOBAK {$/;"	n
+HOBAK	WISP_SCENE.h	/^namespace HOBAK {$/;"	n
+MULTI_STRAND_SCENE	MULTI_STRAND_SCENE.h	/^class MULTI_STRAND_SCENE : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+MULTI_STRAND_SCENE_H	MULTI_STRAND_SCENE.h	/^#define MULTI_STRAND_SCENE_H$/;"	d
+SANDBOX	SANDBOX.h	/^class SANDBOX : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+SANDBOX_H	SANDBOX.h	/^#define SANDBOX_H$/;"	d
+SINGLE_STRAND_INSTABILITY	SINGLE_STRAND_INSTABILITY.h	/^class SINGLE_STRAND_INSTABILITY : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+SINGLE_STRAND_INSTABILITY_H	SINGLE_STRAND_INSTABILITY.h	/^#define SINGLE_STRAND_INSTABILITY_H$/;"	d
+STRAIGHT_STRAND_SCENE	STRAIGHT_STRAND_SCENE.h	/^class STRAIGHT_STRAND_SCENE : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+STRAIGHT_STRAND_SCENE_H	STRAIGHT_STRAND_SCENE.h	/^#define STRAIGHT_STRAND_SCENE_H$/;"	d
+STRAND_COLLISION_SCENE	STRAND_COLLISION_SCENE.h	/^class STRAND_COLLISION_SCENE : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+STRAND_COLLISION_SCENE_H	STRAND_COLLISION_SCENE.h	/^#define STRAND_COLLISION_SCENE_H$/;"	d
+STRAND_DVT_SCENE	STRAND_DVT_SCENE.h	/^class STRAND_DVT_SCENE : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+STRAND_DVT_SCENE_H	STRAND_DVT_SCENE.h	/^#define STRAND_DVT_SCENE_H$/;"	d
+STRAND_GRID_SCENE	STRAND_GRID_SCENE.h	/^class STRAND_GRID_SCENE : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+STRAND_GRID_SCENE_H	STRAND_GRID_SCENE.h	/^#define STRAND_GRID_SCENE_H$/;"	d
+STRAND_LINE_SCENE	STRAND_LINE_SCENE.h	/^class STRAND_LINE_SCENE : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+STRAND_LINE_SCENE_H	STRAND_LINE_SCENE.h	/^#define STRAND_LINE_SCENE_H$/;"	d
+STRAND_L_SCENE	STRAND_L_SCENE.h	/^class STRAND_L_SCENE : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+STRAND_L_SCENE_H	STRAND_L_SCENE.h	/^#define STRAND_L_SCENE_H$/;"	d
+STRAND_POINT_SMASH	STRAND_POINT_SMASH.h	/^class STRAND_POINT_SMASH : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+STRAND_POINT_SMASH_H	STRAND_POINT_SMASH.h	/^#define STRAND_POINT_SMASH_H$/;"	d
+STRAND_SCENE	STRAND_SCENE.h	/^class STRAND_SCENE : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+STRAND_SCENE_H	STRAND_SCENE.h	/^#define STRAND_SCENE_H$/;"	d
+STRAND_SCRAMBLE	STRAND_SCRAMBLE.h	/^class STRAND_SCRAMBLE : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+STRAND_SCRAMBLE_H	STRAND_SCRAMBLE.h	/^#define STRAND_SCRAMBLE_H$/;"	d
+STRAND_WAVE_SCENE	STRAND_WAVE_SCENE.h	/^class STRAND_WAVE_SCENE : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+STRAND_WAVE_SCENE_H	STRAND_WAVE_SCENE.h	/^#define STRAND_WAVE_SCENE_H$/;"	d
+TET_MULTI_WISP_SCENE	TET_MULTI_WISP_SCENE.h	/^class TET_MULTI_WISP_SCENE : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+TET_MULTI_WISP_SCENE_H	TET_MULTI_WISP_SCENE.h	/^#define TET_MULTI_WISP_SCENE_H$/;"	d
+TET_TWIRL_SCENE	TET_TWIRL_SCENE.h	/^class TET_TWIRL_SCENE : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+TET_TWIRL_SCENE_H	TET_TWIRL_SCENE.h	/^#define TET_TWIRL_SCENE_H$/;"	d
+TET_WISP_SCENE	TET_WISP_SCENE.h	/^class TET_WISP_SCENE : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+TET_WISP_SCENE_H	TET_WISP_SCENE.h	/^#define TET_WISP_SCENE_H$/;"	d
+WISP_SCENE	WISP_SCENE.h	/^class WISP_SCENE : public SIMULATION_SCENE {$/;"	c	namespace:HOBAK
+WISP_SCENE_H	WISP_SCENE.h	/^#define WISP_SCENE_H$/;"	d
+_E	DVT_END_TWEAK.h	/^  REAL _E;$/;"	m	class:HOBAK::DVT_END_TWEAK
+_E	DVT_POINT_SMASH.h	/^  REAL _E;$/;"	m	class:HOBAK::DVT_POINT_SMASH
+_E	DVT_SCRAMBLE.h	/^  REAL _E;$/;"	m	class:HOBAK::DVT_SCRAMBLE
+_E	SANDBOX.h	/^  REAL _E;$/;"	m	class:HOBAK::SANDBOX
+_E	SINGLE_STRAND_INSTABILITY.h	/^  REAL _E;$/;"	m	class:HOBAK::SINGLE_STRAND_INSTABILITY
+_E	STRAND_POINT_SMASH.h	/^  REAL _E;$/;"	m	class:HOBAK::STRAND_POINT_SMASH
+_E	STRAND_SCRAMBLE.h	/^  REAL _E;$/;"	m	class:HOBAK::STRAND_SCRAMBLE
+_E	TET_MULTI_WISP_SCENE.h	/^  REAL _E;$/;"	m	class:HOBAK::TET_MULTI_WISP_SCENE
+_E	TET_TWIRL_SCENE.h	/^  REAL _E;$/;"	m	class:HOBAK::TET_TWIRL_SCENE
+_E	TET_WISP_SCENE.h	/^  REAL _E;$/;"	m	class:HOBAK::TET_WISP_SCENE
+_E	WISP_SCENE.h	/^  REAL _E;$/;"	m	class:HOBAK::WISP_SCENE
+_baseRadius	DVT_END_TWEAK.h	/^  REAL _baseRadius;$/;"	m	class:HOBAK::DVT_END_TWEAK
+_baseRadius	DVT_POINT_SMASH.h	/^  REAL _baseRadius;$/;"	m	class:HOBAK::DVT_POINT_SMASH
+_baseRadius	DVT_SCRAMBLE.h	/^  REAL _baseRadius;$/;"	m	class:HOBAK::DVT_SCRAMBLE
+_baseRadius	STRAND_POINT_SMASH.h	/^  REAL _baseRadius;$/;"	m	class:HOBAK::STRAND_POINT_SMASH
+_baseRadius	STRAND_SCRAMBLE.h	/^  REAL _baseRadius;$/;"	m	class:HOBAK::STRAND_SCRAMBLE
+_baseRadius	TET_MULTI_WISP_SCENE.h	/^  REAL _baseRadius;$/;"	m	class:HOBAK::TET_MULTI_WISP_SCENE
+_baseRadius	TET_TWIRL_SCENE.h	/^  REAL _baseRadius;$/;"	m	class:HOBAK::TET_TWIRL_SCENE
+_baseRadius	TET_WISP_SCENE.h	/^  REAL _baseRadius;$/;"	m	class:HOBAK::TET_WISP_SCENE
+_baseRadius	WISP_SCENE.h	/^  REAL _baseRadius;$/;"	m	class:HOBAK::WISP_SCENE
+_bottomStrandSpacing	STRAND_GRID_SCENE.h	/^  REAL _bottomStrandSpacing;$/;"	m	class:HOBAK::STRAND_GRID_SCENE
+_bottomStrands	STRAND_GRID_SCENE.h	/^  unsigned int _bottomStrands;$/;"	m	class:HOBAK::STRAND_GRID_SCENE
+_density	DVT_END_TWEAK.h	/^  REAL _density;$/;"	m	class:HOBAK::DVT_END_TWEAK
+_density	DVT_POINT_SMASH.h	/^  REAL _density;$/;"	m	class:HOBAK::DVT_POINT_SMASH
+_density	DVT_SCRAMBLE.h	/^  REAL _density;$/;"	m	class:HOBAK::DVT_SCRAMBLE
+_density	SANDBOX.h	/^  REAL _density;$/;"	m	class:HOBAK::SANDBOX
+_density	SINGLE_STRAND_INSTABILITY.h	/^  REAL _density;$/;"	m	class:HOBAK::SINGLE_STRAND_INSTABILITY
+_density	STRAND_POINT_SMASH.h	/^  REAL _density;$/;"	m	class:HOBAK::STRAND_POINT_SMASH
+_density	STRAND_SCRAMBLE.h	/^  REAL _density;$/;"	m	class:HOBAK::STRAND_SCRAMBLE
+_density	TET_MULTI_WISP_SCENE.h	/^  REAL _density;$/;"	m	class:HOBAK::TET_MULTI_WISP_SCENE
+_density	TET_TWIRL_SCENE.h	/^  REAL _density;$/;"	m	class:HOBAK::TET_TWIRL_SCENE
+_density	TET_WISP_SCENE.h	/^  REAL _density;$/;"	m	class:HOBAK::TET_WISP_SCENE
+_density	WISP_SCENE.h	/^  REAL _density;$/;"	m	class:HOBAK::WISP_SCENE
+_drawVertices	DVT_END_TWEAK.h	/^  bool _drawVertices;$/;"	m	class:HOBAK::DVT_END_TWEAK
+_drawVertices	DVT_POINT_SMASH.h	/^  bool _drawVertices;$/;"	m	class:HOBAK::DVT_POINT_SMASH
+_drawVertices	DVT_SCRAMBLE.h	/^  bool _drawVertices;$/;"	m	class:HOBAK::DVT_SCRAMBLE
+_drawVertices	STRAND_POINT_SMASH.h	/^  bool _drawVertices;$/;"	m	class:HOBAK::STRAND_POINT_SMASH
+_drawVertices	STRAND_SCRAMBLE.h	/^  bool _drawVertices;$/;"	m	class:HOBAK::STRAND_SCRAMBLE
+_drawVertices	TET_MULTI_WISP_SCENE.h	/^  bool _drawVertices;$/;"	m	class:HOBAK::TET_MULTI_WISP_SCENE
+_drawVertices	TET_TWIRL_SCENE.h	/^  bool _drawVertices;$/;"	m	class:HOBAK::TET_TWIRL_SCENE
+_drawVertices	TET_WISP_SCENE.h	/^  bool _drawVertices;$/;"	m	class:HOBAK::TET_WISP_SCENE
+_drawVertices	WISP_SCENE.h	/^  bool _drawVertices;$/;"	m	class:HOBAK::WISP_SCENE
+_filePath	COMPRESSION_INSTABILITY.h	/^  string _filePath;$/;"	m	class:HOBAK::COMPRESSION_INSTABILITY
+_filePath	DVT_END_TWEAK.h	/^  string _filePath;$/;"	m	class:HOBAK::DVT_END_TWEAK
+_filePath	DVT_POINT_SMASH.h	/^  string _filePath;$/;"	m	class:HOBAK::DVT_POINT_SMASH
+_filePath	DVT_SCRAMBLE.h	/^  string _filePath;$/;"	m	class:HOBAK::DVT_SCRAMBLE
+_filePath	SANDBOX.h	/^  string _filePath;$/;"	m	class:HOBAK::SANDBOX
+_filePath	SINGLE_STRAND_INSTABILITY.h	/^  string _filePath;$/;"	m	class:HOBAK::SINGLE_STRAND_INSTABILITY
+_filePath	STRAND_POINT_SMASH.h	/^  string _filePath;$/;"	m	class:HOBAK::STRAND_POINT_SMASH
+_filePath	STRAND_SCRAMBLE.h	/^  string _filePath;$/;"	m	class:HOBAK::STRAND_SCRAMBLE
+_filePath	TET_MULTI_WISP_SCENE.h	/^  string _filePath;$/;"	m	class:HOBAK::TET_MULTI_WISP_SCENE
+_filePath	TET_TWIRL_SCENE.h	/^  string _filePath;$/;"	m	class:HOBAK::TET_TWIRL_SCENE
+_filePath	TET_WISP_SCENE.h	/^  string _filePath;$/;"	m	class:HOBAK::TET_WISP_SCENE
+_filePath	WISP_SCENE.h	/^  string _filePath;$/;"	m	class:HOBAK::WISP_SCENE
+_gravityPreloadingStep	STRAND_COLLISION_SCENE.h	/^  int _gravityPreloadingStep;$/;"	m	class:HOBAK::STRAND_COLLISION_SCENE
+_nu	DVT_END_TWEAK.h	/^  REAL _nu;$/;"	m	class:HOBAK::DVT_END_TWEAK
+_nu	DVT_POINT_SMASH.h	/^  REAL _nu;$/;"	m	class:HOBAK::DVT_POINT_SMASH
+_nu	DVT_SCRAMBLE.h	/^  REAL _nu;$/;"	m	class:HOBAK::DVT_SCRAMBLE
+_nu	SANDBOX.h	/^  REAL _nu;$/;"	m	class:HOBAK::SANDBOX
+_nu	SINGLE_STRAND_INSTABILITY.h	/^  REAL _nu;$/;"	m	class:HOBAK::SINGLE_STRAND_INSTABILITY
+_nu	STRAND_POINT_SMASH.h	/^  REAL _nu;$/;"	m	class:HOBAK::STRAND_POINT_SMASH
+_nu	STRAND_SCRAMBLE.h	/^  REAL _nu;$/;"	m	class:HOBAK::STRAND_SCRAMBLE
+_nu	TET_MULTI_WISP_SCENE.h	/^  REAL _nu;$/;"	m	class:HOBAK::TET_MULTI_WISP_SCENE
+_nu	TET_TWIRL_SCENE.h	/^  REAL _nu;$/;"	m	class:HOBAK::TET_TWIRL_SCENE
+_nu	TET_WISP_SCENE.h	/^  REAL _nu;$/;"	m	class:HOBAK::TET_WISP_SCENE
+_nu	WISP_SCENE.h	/^  REAL _nu;$/;"	m	class:HOBAK::WISP_SCENE
+_radiusA	SANDBOX.h	/^  REAL _radiusA;$/;"	m	class:HOBAK::SANDBOX
+_radiusA	SINGLE_STRAND_INSTABILITY.h	/^  REAL _radiusA;$/;"	m	class:HOBAK::SINGLE_STRAND_INSTABILITY
+_radiusB	SANDBOX.h	/^  REAL _radiusB;$/;"	m	class:HOBAK::SANDBOX
+_radiusB	SINGLE_STRAND_INSTABILITY.h	/^  REAL _radiusB;$/;"	m	class:HOBAK::SINGLE_STRAND_INSTABILITY
+_randomPoints	STRAND_POINT_SMASH.h	/^  vector<VECTOR3> _randomPoints;$/;"	m	class:HOBAK::STRAND_POINT_SMASH
+_randomPoints	STRAND_SCRAMBLE.h	/^  vector<VECTOR3> _randomPoints;$/;"	m	class:HOBAK::STRAND_SCRAMBLE
+_randomPoints	TET_MULTI_WISP_SCENE.h	/^  vector<VECTOR3> _randomPoints;$/;"	m	class:HOBAK::TET_MULTI_WISP_SCENE
+_randomPoints	TET_TWIRL_SCENE.h	/^  vector<VECTOR3> _randomPoints;$/;"	m	class:HOBAK::TET_TWIRL_SCENE
+_spacing	DVT_END_TWEAK.h	/^  REAL _spacing;$/;"	m	class:HOBAK::DVT_END_TWEAK
+_spacing	DVT_POINT_SMASH.h	/^  REAL _spacing;$/;"	m	class:HOBAK::DVT_POINT_SMASH
+_spacing	DVT_SCRAMBLE.h	/^  REAL _spacing;$/;"	m	class:HOBAK::DVT_SCRAMBLE
+_spacing	SANDBOX.h	/^  REAL _spacing;$/;"	m	class:HOBAK::SANDBOX
+_spacing	SINGLE_STRAND_INSTABILITY.h	/^  REAL _spacing;$/;"	m	class:HOBAK::SINGLE_STRAND_INSTABILITY
+_spacing	STRAND_POINT_SMASH.h	/^  REAL _spacing;$/;"	m	class:HOBAK::STRAND_POINT_SMASH
+_spacing	STRAND_SCRAMBLE.h	/^  REAL _spacing;$/;"	m	class:HOBAK::STRAND_SCRAMBLE
+_spacing	TET_MULTI_WISP_SCENE.h	/^  REAL _spacing;$/;"	m	class:HOBAK::TET_MULTI_WISP_SCENE
+_spacing	TET_TWIRL_SCENE.h	/^  REAL _spacing;$/;"	m	class:HOBAK::TET_TWIRL_SCENE
+_spacing	TET_WISP_SCENE.h	/^  REAL _spacing;$/;"	m	class:HOBAK::TET_WISP_SCENE
+_spacing	WISP_SCENE.h	/^  REAL _spacing;$/;"	m	class:HOBAK::WISP_SCENE
+_strandMesh	COMPRESSION_INSTABILITY.h	/^  STRAND_MESH* _strandMesh;$/;"	m	class:HOBAK::COMPRESSION_INSTABILITY
+_strandMesh	CURLY_HAIRBALL.h	/^  STRAND_MESH* _strandMesh;$/;"	m	class:HOBAK::CURLY_HAIRBALL
+_strandMesh	CURLY_WISPBALL.h	/^  WISP_MESH* _strandMesh;$/;"	m	class:HOBAK::CURLY_WISPBALL
+_strandMesh	DVT_END_TWEAK.h	/^  STRAND_MESH* _strandMesh;$/;"	m	class:HOBAK::DVT_END_TWEAK
+_strandMesh	DVT_POINT_SMASH.h	/^  STRAND_MESH* _strandMesh;$/;"	m	class:HOBAK::DVT_POINT_SMASH
+_strandMesh	DVT_SCRAMBLE.h	/^  STRAND_MESH* _strandMesh;$/;"	m	class:HOBAK::DVT_SCRAMBLE
+_strandMesh	HAIRBALL.h	/^  STRAND_MESH* _strandMesh;$/;"	m	class:HOBAK::HAIRBALL
+_strandMesh	HAIRBALL_UNSTABLE.h	/^  STRAND_MESH* _strandMesh;$/;"	m	class:HOBAK::HAIRBALL_UNSTABLE
+_strandMesh	MULTI_STRAND_SCENE.h	/^  STRAND_MESH_DVT* _strandMesh;$/;"	m	class:HOBAK::MULTI_STRAND_SCENE
+_strandMesh	SANDBOX.h	/^  TET_STRAND_MESH* _strandMesh;$/;"	m	class:HOBAK::SANDBOX
+_strandMesh	SINGLE_STRAND_INSTABILITY.h	/^  STRAND_MESH* _strandMesh;$/;"	m	class:HOBAK::SINGLE_STRAND_INSTABILITY
+_strandMesh	STRAIGHT_STRAND_SCENE.h	/^  STRAND_MESH_DVT* _strandMesh;$/;"	m	class:HOBAK::STRAIGHT_STRAND_SCENE
+_strandMesh	STRAND_COLLISION_SCENE.h	/^  STRAND_MESH_DVT* _strandMesh;$/;"	m	class:HOBAK::STRAND_COLLISION_SCENE
+_strandMesh	STRAND_DVT_SCENE.h	/^  STRAND_MESH_DVT* _strandMesh;$/;"	m	class:HOBAK::STRAND_DVT_SCENE
+_strandMesh	STRAND_GRID_SCENE.h	/^  STRAND_MESH* _strandMesh;$/;"	m	class:HOBAK::STRAND_GRID_SCENE
+_strandMesh	STRAND_LINE_SCENE.h	/^  STRAND_MESH* _strandMesh;$/;"	m	class:HOBAK::STRAND_LINE_SCENE
+_strandMesh	STRAND_L_SCENE.h	/^  STRAND_MESH* _strandMesh;$/;"	m	class:HOBAK::STRAND_L_SCENE
+_strandMesh	STRAND_POINT_SMASH.h	/^  TET_WISP_MESH* _strandMesh;$/;"	m	class:HOBAK::STRAND_POINT_SMASH
+_strandMesh	STRAND_SCENE.h	/^  STRAND_MESH* _strandMesh;$/;"	m	class:HOBAK::STRAND_SCENE
+_strandMesh	STRAND_SCRAMBLE.h	/^  TET_WISP_MESH* _strandMesh;$/;"	m	class:HOBAK::STRAND_SCRAMBLE
+_strandMesh	STRAND_WAVE_SCENE.h	/^  STRAND_MESH* _strandMesh;$/;"	m	class:HOBAK::STRAND_WAVE_SCENE
+_strandMesh	TET_MULTI_WISP_SCENE.h	/^  TET_WISP_MESH* _strandMesh;$/;"	m	class:HOBAK::TET_MULTI_WISP_SCENE
+_strandMesh	TET_TWIRL_SCENE.h	/^  TET_WISP_MESH* _strandMesh;$/;"	m	class:HOBAK::TET_TWIRL_SCENE
+_strandMesh	TET_WISP_SCENE.h	/^  TET_WISP_MESH* _strandMesh;$/;"	m	class:HOBAK::TET_WISP_SCENE
+_strandMesh	WISP_SCENE.h	/^  STRAND_MESH* _strandMesh;$/;"	m	class:HOBAK::WISP_SCENE
+_strandSolver	COMPRESSION_INSTABILITY.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::COMPRESSION_INSTABILITY
+_strandSolver	CURLY_HAIRBALL.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::CURLY_HAIRBALL
+_strandSolver	CURLY_WISPBALL.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::CURLY_WISPBALL
+_strandSolver	DVT_END_TWEAK.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::DVT_END_TWEAK
+_strandSolver	DVT_POINT_SMASH.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::DVT_POINT_SMASH
+_strandSolver	DVT_SCRAMBLE.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::DVT_SCRAMBLE
+_strandSolver	HAIRBALL.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::HAIRBALL
+_strandSolver	HAIRBALL_UNSTABLE.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::HAIRBALL_UNSTABLE
+_strandSolver	MULTI_STRAND_SCENE.h	/^  STRAND::TIMESTEPPER_DVT* _strandSolver;$/;"	m	class:HOBAK::MULTI_STRAND_SCENE
+_strandSolver	SANDBOX.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::SANDBOX
+_strandSolver	SINGLE_STRAND_INSTABILITY.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::SINGLE_STRAND_INSTABILITY
+_strandSolver	STRAIGHT_STRAND_SCENE.h	/^  STRAND::TIMESTEPPER_DVT* _strandSolver;$/;"	m	class:HOBAK::STRAIGHT_STRAND_SCENE
+_strandSolver	STRAND_COLLISION_SCENE.h	/^  STRAND::TIMESTEPPER_DVT* _strandSolver;$/;"	m	class:HOBAK::STRAND_COLLISION_SCENE
+_strandSolver	STRAND_DVT_SCENE.h	/^  STRAND::TIMESTEPPER_DVT* _strandSolver;$/;"	m	class:HOBAK::STRAND_DVT_SCENE
+_strandSolver	STRAND_GRID_SCENE.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::STRAND_GRID_SCENE
+_strandSolver	STRAND_LINE_SCENE.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::STRAND_LINE_SCENE
+_strandSolver	STRAND_L_SCENE.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::STRAND_L_SCENE
+_strandSolver	STRAND_POINT_SMASH.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::STRAND_POINT_SMASH
+_strandSolver	STRAND_SCENE.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::STRAND_SCENE
+_strandSolver	STRAND_SCRAMBLE.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::STRAND_SCRAMBLE
+_strandSolver	STRAND_WAVE_SCENE.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::STRAND_WAVE_SCENE
+_strandSolver	TET_MULTI_WISP_SCENE.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::TET_MULTI_WISP_SCENE
+_strandSolver	TET_TWIRL_SCENE.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::TET_TWIRL_SCENE
+_strandSolver	TET_WISP_SCENE.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::TET_WISP_SCENE
+_strandSolver	WISP_SCENE.h	/^  STRAND::TIMESTEPPER* _strandSolver;$/;"	m	class:HOBAK::WISP_SCENE
+_strechingEnergy	COMPRESSION_INSTABILITY.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::COMPRESSION_INSTABILITY
+_strechingEnergy	CURLY_HAIRBALL.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::CURLY_HAIRBALL
+_strechingEnergy	CURLY_WISPBALL.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::CURLY_WISPBALL
+_strechingEnergy	DVT_END_TWEAK.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::DVT_END_TWEAK
+_strechingEnergy	DVT_POINT_SMASH.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::DVT_POINT_SMASH
+_strechingEnergy	DVT_SCRAMBLE.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::DVT_SCRAMBLE
+_strechingEnergy	HAIRBALL.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::HAIRBALL
+_strechingEnergy	HAIRBALL_UNSTABLE.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::HAIRBALL_UNSTABLE
+_strechingEnergy	MULTI_STRAND_SCENE.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::MULTI_STRAND_SCENE
+_strechingEnergy	SANDBOX.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::SANDBOX
+_strechingEnergy	SINGLE_STRAND_INSTABILITY.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::SINGLE_STRAND_INSTABILITY
+_strechingEnergy	STRAIGHT_STRAND_SCENE.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::STRAIGHT_STRAND_SCENE
+_strechingEnergy	STRAND_COLLISION_SCENE.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::STRAND_COLLISION_SCENE
+_strechingEnergy	STRAND_DVT_SCENE.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::STRAND_DVT_SCENE
+_strechingEnergy	STRAND_GRID_SCENE.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::STRAND_GRID_SCENE
+_strechingEnergy	STRAND_LINE_SCENE.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::STRAND_LINE_SCENE
+_strechingEnergy	STRAND_L_SCENE.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::STRAND_L_SCENE
+_strechingEnergy	STRAND_POINT_SMASH.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::STRAND_POINT_SMASH
+_strechingEnergy	STRAND_SCENE.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::STRAND_SCENE
+_strechingEnergy	STRAND_SCRAMBLE.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::STRAND_SCRAMBLE
+_strechingEnergy	STRAND_WAVE_SCENE.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::STRAND_WAVE_SCENE
+_strechingEnergy	TET_MULTI_WISP_SCENE.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::TET_MULTI_WISP_SCENE
+_strechingEnergy	TET_TWIRL_SCENE.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::TET_TWIRL_SCENE
+_strechingEnergy	TET_WISP_SCENE.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::TET_WISP_SCENE
+_strechingEnergy	WISP_SCENE.h	/^  STRAND::STRETCHING* _strechingEnergy;$/;"	m	class:HOBAK::WISP_SCENE
+_substeps	COMPRESSION_INSTABILITY.h	/^  unsigned int _substeps;$/;"	m	class:HOBAK::COMPRESSION_INSTABILITY
+_substeps	CURLY_HAIRBALL.h	/^  unsigned int _substeps;$/;"	m	class:HOBAK::CURLY_HAIRBALL
+_substeps	CURLY_WISPBALL.h	/^  unsigned int _substeps;$/;"	m	class:HOBAK::CURLY_WISPBALL
+_substeps	DVT_END_TWEAK.h	/^  unsigned int _substeps;$/;"	m	class:HOBAK::DVT_END_TWEAK
+_substeps	DVT_POINT_SMASH.h	/^  unsigned int _substeps;$/;"	m	class:HOBAK::DVT_POINT_SMASH
+_substeps	DVT_SCRAMBLE.h	/^  unsigned int _substeps;$/;"	m	class:HOBAK::DVT_SCRAMBLE
+_substeps	HAIRBALL.h	/^  unsigned int _substeps;$/;"	m	class:HOBAK::HAIRBALL
+_substeps	HAIRBALL_UNSTABLE.h	/^  unsigned int _substeps;$/;"	m	class:HOBAK::HAIRBALL_UNSTABLE
+_substeps	SANDBOX.h	/^  unsigned int _substeps;$/;"	m	class:HOBAK::SANDBOX
+_substeps	SINGLE_STRAND_INSTABILITY.h	/^  unsigned int _substeps;$/;"	m	class:HOBAK::SINGLE_STRAND_INSTABILITY
+_substeps	STRAND_POINT_SMASH.h	/^  unsigned int _substeps;$/;"	m	class:HOBAK::STRAND_POINT_SMASH
+_substeps	STRAND_SCRAMBLE.h	/^  unsigned int _substeps;$/;"	m	class:HOBAK::STRAND_SCRAMBLE
+_substeps	TET_MULTI_WISP_SCENE.h	/^  unsigned int _substeps;$/;"	m	class:HOBAK::TET_MULTI_WISP_SCENE
+_substeps	TET_TWIRL_SCENE.h	/^  unsigned int _substeps;$/;"	m	class:HOBAK::TET_TWIRL_SCENE
+_substeps	TET_WISP_SCENE.h	/^  unsigned int _substeps;$/;"	m	class:HOBAK::TET_WISP_SCENE
+_substeps	WISP_SCENE.h	/^  unsigned int _substeps;$/;"	m	class:HOBAK::WISP_SCENE
+_tipRadius	DVT_END_TWEAK.h	/^  REAL _tipRadius;$/;"	m	class:HOBAK::DVT_END_TWEAK
+_tipRadius	DVT_POINT_SMASH.h	/^  REAL _tipRadius;$/;"	m	class:HOBAK::DVT_POINT_SMASH
+_tipRadius	DVT_SCRAMBLE.h	/^  REAL _tipRadius;$/;"	m	class:HOBAK::DVT_SCRAMBLE
+_tipRadius	STRAND_POINT_SMASH.h	/^  REAL _tipRadius;$/;"	m	class:HOBAK::STRAND_POINT_SMASH
+_tipRadius	STRAND_SCRAMBLE.h	/^  REAL _tipRadius;$/;"	m	class:HOBAK::STRAND_SCRAMBLE
+_tipRadius	TET_MULTI_WISP_SCENE.h	/^  REAL _tipRadius;$/;"	m	class:HOBAK::TET_MULTI_WISP_SCENE
+_tipRadius	TET_TWIRL_SCENE.h	/^  REAL _tipRadius;$/;"	m	class:HOBAK::TET_TWIRL_SCENE
+_tipRadius	TET_WISP_SCENE.h	/^  REAL _tipRadius;$/;"	m	class:HOBAK::TET_WISP_SCENE
+_tipRadius	WISP_SCENE.h	/^  REAL _tipRadius;$/;"	m	class:HOBAK::WISP_SCENE
+_topStrandSpacing	STRAND_GRID_SCENE.h	/^  REAL _topStrandSpacing;$/;"	m	class:HOBAK::STRAND_GRID_SCENE
+_topStrands	STRAND_GRID_SCENE.h	/^  unsigned int _topStrands;$/;"	m	class:HOBAK::STRAND_GRID_SCENE
+_totalGravityPreloadingSteps	STRAND_COLLISION_SCENE.h	/^  int _totalGravityPreloadingSteps;$/;"	m	class:HOBAK::STRAND_COLLISION_SCENE
+_totalPoints	DVT_END_TWEAK.h	/^  unsigned int _totalPoints;$/;"	m	class:HOBAK::DVT_END_TWEAK
+_totalPoints	DVT_POINT_SMASH.h	/^  unsigned int _totalPoints;$/;"	m	class:HOBAK::DVT_POINT_SMASH
+_totalPoints	DVT_SCRAMBLE.h	/^  unsigned int _totalPoints;$/;"	m	class:HOBAK::DVT_SCRAMBLE
+_totalPoints	SANDBOX.h	/^  unsigned int _totalPoints;$/;"	m	class:HOBAK::SANDBOX
+_totalPoints	SINGLE_STRAND_INSTABILITY.h	/^  unsigned int _totalPoints;$/;"	m	class:HOBAK::SINGLE_STRAND_INSTABILITY
+_totalPoints	STRAND_POINT_SMASH.h	/^  unsigned int _totalPoints;$/;"	m	class:HOBAK::STRAND_POINT_SMASH
+_totalPoints	STRAND_SCRAMBLE.h	/^  unsigned int _totalPoints;$/;"	m	class:HOBAK::STRAND_SCRAMBLE
+_totalPoints	TET_MULTI_WISP_SCENE.h	/^  unsigned int _totalPoints;$/;"	m	class:HOBAK::TET_MULTI_WISP_SCENE
+_totalPoints	TET_TWIRL_SCENE.h	/^  unsigned int _totalPoints;$/;"	m	class:HOBAK::TET_TWIRL_SCENE
+_totalPoints	TET_WISP_SCENE.h	/^  unsigned int _totalPoints;$/;"	m	class:HOBAK::TET_WISP_SCENE
+_totalPoints	WISP_SCENE.h	/^  unsigned int _totalPoints;$/;"	m	class:HOBAK::WISP_SCENE
+_totalStrands	STRAND_POINT_SMASH.h	/^  unsigned int _totalStrands;$/;"	m	class:HOBAK::STRAND_POINT_SMASH
+_totalStrands	STRAND_SCRAMBLE.h	/^  unsigned int _totalStrands;$/;"	m	class:HOBAK::STRAND_SCRAMBLE
+_totalStrands	TET_MULTI_WISP_SCENE.h	/^  unsigned int _totalStrands;$/;"	m	class:HOBAK::TET_MULTI_WISP_SCENE
+_totalStrands	TET_TWIRL_SCENE.h	/^  int _totalStrands;$/;"	m	class:HOBAK::TET_TWIRL_SCENE
+_writeToFile	COMPRESSION_INSTABILITY.h	/^  bool _writeToFile;$/;"	m	class:HOBAK::COMPRESSION_INSTABILITY
+_writeToFile	DVT_END_TWEAK.h	/^  bool _writeToFile;$/;"	m	class:HOBAK::DVT_END_TWEAK
+_writeToFile	DVT_POINT_SMASH.h	/^  bool _writeToFile;$/;"	m	class:HOBAK::DVT_POINT_SMASH
+_writeToFile	DVT_SCRAMBLE.h	/^  bool _writeToFile;$/;"	m	class:HOBAK::DVT_SCRAMBLE
+_writeToFile	SANDBOX.h	/^  bool _writeToFile;$/;"	m	class:HOBAK::SANDBOX
+_writeToFile	SINGLE_STRAND_INSTABILITY.h	/^  bool _writeToFile;$/;"	m	class:HOBAK::SINGLE_STRAND_INSTABILITY
+_writeToFile	STRAND_POINT_SMASH.h	/^  bool _writeToFile;$/;"	m	class:HOBAK::STRAND_POINT_SMASH
+_writeToFile	STRAND_SCRAMBLE.h	/^  bool _writeToFile;$/;"	m	class:HOBAK::STRAND_SCRAMBLE
+_writeToFile	TET_MULTI_WISP_SCENE.h	/^  bool _writeToFile;$/;"	m	class:HOBAK::TET_MULTI_WISP_SCENE
+_writeToFile	TET_TWIRL_SCENE.h	/^  bool _writeToFile;$/;"	m	class:HOBAK::TET_TWIRL_SCENE
+_writeToFile	TET_WISP_SCENE.h	/^  bool _writeToFile;$/;"	m	class:HOBAK::TET_WISP_SCENE
+_writeToFile	WISP_SCENE.h	/^  bool _writeToFile;$/;"	m	class:HOBAK::WISP_SCENE
+buildMultiType4C	TET_MULTI_WISP_SCENE.h	/^  void buildMultiType4C()$/;"	f	class:HOBAK::TET_MULTI_WISP_SCENE
+buildMultiType4C	TET_TWIRL_SCENE.h	/^  void buildMultiType4C()$/;"	f	class:HOBAK::TET_TWIRL_SCENE
+buildRandomPoints	TET_MULTI_WISP_SCENE.h	/^  void buildRandomPoints()$/;"	f	class:HOBAK::TET_MULTI_WISP_SCENE
+buildRandomPoints	TET_TWIRL_SCENE.h	/^  void buildRandomPoints()$/;"	f	class:HOBAK::TET_TWIRL_SCENE
+buildSampleMatch	TET_WISP_SCENE.h	/^  void buildSampleMatch()$/;"	f	class:HOBAK::TET_WISP_SCENE
+buildSampleMatch	WISP_SCENE.h	/^  void buildSampleMatch()$/;"	f	class:HOBAK::WISP_SCENE
+buildType1	SANDBOX.h	/^  void buildType1()$/;"	f	class:HOBAK::SANDBOX
+buildType1	SINGLE_STRAND_INSTABILITY.h	/^  void buildType1()$/;"	f	class:HOBAK::SINGLE_STRAND_INSTABILITY
+buildType1	TET_WISP_SCENE.h	/^  void buildType1()$/;"	f	class:HOBAK::TET_WISP_SCENE
+buildType1	WISP_SCENE.h	/^  void buildType1()$/;"	f	class:HOBAK::WISP_SCENE
+buildType4B	SANDBOX.h	/^  void buildType4B()$/;"	f	class:HOBAK::SANDBOX
+buildType4B	SINGLE_STRAND_INSTABILITY.h	/^  void buildType4B()$/;"	f	class:HOBAK::SINGLE_STRAND_INSTABILITY
+buildType4B	TET_WISP_SCENE.h	/^  void buildType4B()$/;"	f	class:HOBAK::TET_WISP_SCENE
+buildType4B	WISP_SCENE.h	/^  void buildType4B()$/;"	f	class:HOBAK::WISP_SCENE
+buildType4C	DVT_END_TWEAK.h	/^  void buildType4C()$/;"	f	class:HOBAK::DVT_END_TWEAK
+buildType4C	DVT_POINT_SMASH.h	/^  void buildType4C()$/;"	f	class:HOBAK::DVT_POINT_SMASH
+buildType4C	DVT_SCRAMBLE.h	/^  void buildType4C()$/;"	f	class:HOBAK::DVT_SCRAMBLE
+buildType4C	SANDBOX.h	/^  void buildType4C()$/;"	f	class:HOBAK::SANDBOX
+buildType4C	SINGLE_STRAND_INSTABILITY.h	/^  void buildType4C()$/;"	f	class:HOBAK::SINGLE_STRAND_INSTABILITY
+buildType4C	STRAND_POINT_SMASH.h	/^  void buildType4C()$/;"	f	class:HOBAK::STRAND_POINT_SMASH
+buildType4C	STRAND_SCRAMBLE.h	/^  void buildType4C()$/;"	f	class:HOBAK::STRAND_SCRAMBLE
+buildType4C	TET_MULTI_WISP_SCENE.h	/^  void buildType4C()$/;"	f	class:HOBAK::TET_MULTI_WISP_SCENE
+buildType4C	TET_WISP_SCENE.h	/^  void buildType4C()$/;"	f	class:HOBAK::TET_WISP_SCENE
+buildType4C	WISP_SCENE.h	/^  void buildType4C()$/;"	f	class:HOBAK::WISP_SCENE
+buildType4CAlternate	WISP_SCENE.h	/^  void buildType4CAlternate()$/;"	f	class:HOBAK::WISP_SCENE
+buildType4CShortStem	SANDBOX.h	/^  void buildType4CShortStem()$/;"	f	class:HOBAK::SANDBOX
+drawScene	COMPRESSION_INSTABILITY.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::COMPRESSION_INSTABILITY
+drawScene	CURLY_HAIRBALL.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::CURLY_HAIRBALL
+drawScene	CURLY_WISPBALL.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::CURLY_WISPBALL
+drawScene	DVT_END_TWEAK.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::DVT_END_TWEAK
+drawScene	DVT_POINT_SMASH.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::DVT_POINT_SMASH
+drawScene	DVT_SCRAMBLE.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::DVT_SCRAMBLE
+drawScene	HAIRBALL.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::HAIRBALL
+drawScene	HAIRBALL_UNSTABLE.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::HAIRBALL_UNSTABLE
+drawScene	MULTI_STRAND_SCENE.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::MULTI_STRAND_SCENE
+drawScene	SANDBOX.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::SANDBOX
+drawScene	SINGLE_STRAND_INSTABILITY.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::SINGLE_STRAND_INSTABILITY
+drawScene	STRAIGHT_STRAND_SCENE.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::STRAIGHT_STRAND_SCENE
+drawScene	STRAND_COLLISION_SCENE.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::STRAND_COLLISION_SCENE
+drawScene	STRAND_DVT_SCENE.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::STRAND_DVT_SCENE
+drawScene	STRAND_GRID_SCENE.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::STRAND_GRID_SCENE
+drawScene	STRAND_LINE_SCENE.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::STRAND_LINE_SCENE
+drawScene	STRAND_L_SCENE.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::STRAND_L_SCENE
+drawScene	STRAND_POINT_SMASH.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::STRAND_POINT_SMASH
+drawScene	STRAND_SCENE.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::STRAND_SCENE
+drawScene	STRAND_SCRAMBLE.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::STRAND_SCRAMBLE
+drawScene	STRAND_WAVE_SCENE.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::STRAND_WAVE_SCENE
+drawScene	TET_MULTI_WISP_SCENE.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::TET_MULTI_WISP_SCENE
+drawScene	TET_TWIRL_SCENE.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::TET_TWIRL_SCENE
+drawScene	TET_WISP_SCENE.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::TET_WISP_SCENE
+drawScene	WISP_SCENE.h	/^  virtual void drawScene()$/;"	f	class:HOBAK::WISP_SCENE
+preload	STRAND_COLLISION_SCENE.h	/^  void preload(const bool verbose)$/;"	f	class:HOBAK::STRAND_COLLISION_SCENE
+printMatlab	COMPRESSION_INSTABILITY.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::COMPRESSION_INSTABILITY
+printMatlab	COMPRESSION_INSTABILITY.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::COMPRESSION_INSTABILITY
+printMatlab	CURLY_HAIRBALL.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::CURLY_HAIRBALL
+printMatlab	CURLY_HAIRBALL.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::CURLY_HAIRBALL
+printMatlab	CURLY_WISPBALL.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::CURLY_WISPBALL
+printMatlab	CURLY_WISPBALL.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::CURLY_WISPBALL
+printMatlab	DVT_END_TWEAK.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::DVT_END_TWEAK
+printMatlab	DVT_END_TWEAK.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::DVT_END_TWEAK
+printMatlab	DVT_POINT_SMASH.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::DVT_POINT_SMASH
+printMatlab	DVT_POINT_SMASH.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::DVT_POINT_SMASH
+printMatlab	DVT_SCRAMBLE.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::DVT_SCRAMBLE
+printMatlab	DVT_SCRAMBLE.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::DVT_SCRAMBLE
+printMatlab	HAIRBALL.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::HAIRBALL
+printMatlab	HAIRBALL.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::HAIRBALL
+printMatlab	HAIRBALL_UNSTABLE.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::HAIRBALL_UNSTABLE
+printMatlab	HAIRBALL_UNSTABLE.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::HAIRBALL_UNSTABLE
+printMatlab	MULTI_STRAND_SCENE.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::MULTI_STRAND_SCENE
+printMatlab	MULTI_STRAND_SCENE.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::MULTI_STRAND_SCENE
+printMatlab	SANDBOX.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::SANDBOX
+printMatlab	SANDBOX.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::SANDBOX
+printMatlab	SINGLE_STRAND_INSTABILITY.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::SINGLE_STRAND_INSTABILITY
+printMatlab	SINGLE_STRAND_INSTABILITY.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::SINGLE_STRAND_INSTABILITY
+printMatlab	STRAIGHT_STRAND_SCENE.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::STRAIGHT_STRAND_SCENE
+printMatlab	STRAIGHT_STRAND_SCENE.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::STRAIGHT_STRAND_SCENE
+printMatlab	STRAND_COLLISION_SCENE.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::STRAND_COLLISION_SCENE
+printMatlab	STRAND_COLLISION_SCENE.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::STRAND_COLLISION_SCENE
+printMatlab	STRAND_DVT_SCENE.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::STRAND_DVT_SCENE
+printMatlab	STRAND_DVT_SCENE.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::STRAND_DVT_SCENE
+printMatlab	STRAND_GRID_SCENE.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::STRAND_GRID_SCENE
+printMatlab	STRAND_GRID_SCENE.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::STRAND_GRID_SCENE
+printMatlab	STRAND_LINE_SCENE.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::STRAND_LINE_SCENE
+printMatlab	STRAND_LINE_SCENE.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::STRAND_LINE_SCENE
+printMatlab	STRAND_L_SCENE.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::STRAND_L_SCENE
+printMatlab	STRAND_L_SCENE.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::STRAND_L_SCENE
+printMatlab	STRAND_SCENE.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::STRAND_SCENE
+printMatlab	STRAND_SCENE.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::STRAND_SCENE
+printMatlab	STRAND_WAVE_SCENE.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::STRAND_WAVE_SCENE
+printMatlab	STRAND_WAVE_SCENE.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::STRAND_WAVE_SCENE
+printMatlab	TET_MULTI_WISP_SCENE.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::TET_MULTI_WISP_SCENE
+printMatlab	TET_MULTI_WISP_SCENE.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::TET_MULTI_WISP_SCENE
+printMatlab	TET_TWIRL_SCENE.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::TET_TWIRL_SCENE
+printMatlab	TET_TWIRL_SCENE.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::TET_TWIRL_SCENE
+printMatlab	TET_WISP_SCENE.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::TET_WISP_SCENE
+printMatlab	TET_WISP_SCENE.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::TET_WISP_SCENE
+printMatlab	WISP_SCENE.h	/^  static void printMatlab(const VECTOR& p, const string name)$/;"	f	class:HOBAK::WISP_SCENE
+printMatlab	WISP_SCENE.h	/^  static void printMatlab(const vector<VECTOR3>& p, const string name)$/;"	f	class:HOBAK::WISP_SCENE
+scrambleVertices	DVT_END_TWEAK.h	/^  void scrambleVertices()$/;"	f	class:HOBAK::DVT_END_TWEAK
+scrambleVertices	DVT_POINT_SMASH.h	/^  void scrambleVertices()$/;"	f	class:HOBAK::DVT_POINT_SMASH
+scrambleVertices	DVT_SCRAMBLE.h	/^  void scrambleVertices()$/;"	f	class:HOBAK::DVT_SCRAMBLE
+scrambleVertices	STRAND_POINT_SMASH.h	/^  void scrambleVertices()$/;"	f	class:HOBAK::STRAND_POINT_SMASH
+scrambleVertices	STRAND_SCRAMBLE.h	/^  void scrambleVertices()$/;"	f	class:HOBAK::STRAND_SCRAMBLE
+smashVertices	DVT_END_TWEAK.h	/^  void smashVertices()$/;"	f	class:HOBAK::DVT_END_TWEAK
+smashVertices	DVT_POINT_SMASH.h	/^  void smashVertices()$/;"	f	class:HOBAK::DVT_POINT_SMASH
+smashVertices	DVT_SCRAMBLE.h	/^  void smashVertices()$/;"	f	class:HOBAK::DVT_SCRAMBLE
+smashVertices	STRAND_POINT_SMASH.h	/^  void smashVertices()$/;"	f	class:HOBAK::STRAND_POINT_SMASH
+smashVertices	STRAND_SCRAMBLE.h	/^  void smashVertices()$/;"	f	class:HOBAK::STRAND_SCRAMBLE
+strandMesh	SANDBOX.h	/^  TET_STRAND_MESH* strandMesh() { return _strandMesh; };$/;"	f	class:HOBAK::SANDBOX
+strandMesh	SINGLE_STRAND_INSTABILITY.h	/^  STRAND_MESH* strandMesh() { return _strandMesh; };$/;"	f	class:HOBAK::SINGLE_STRAND_INSTABILITY
+tweakEnd	DVT_END_TWEAK.h	/^  void tweakEnd()$/;"	f	class:HOBAK::DVT_END_TWEAK
