@@ -129,7 +129,6 @@ class C_SPECIAL_EE : public C_PLANES
         const REAL e1d2 = e1.dot(e2);
         const REAL e0d0 = e0.dot(e0);
         const REAL e1d1 = e1.dot(e1);
-        const REAL e2d2 = e2.dot(e2);
         const REAL e0x12 = e0.cross(e1).squaredNorm();
 
         // VECTOR3 outer, inner;
@@ -172,7 +171,6 @@ class C_SPECIAL_EE : public C_PLANES
         const REAL e1d2 = e1.dot(e2);
         const REAL e0d0 = e0.dot(e0);
         const REAL e1d1 = e1.dot(e1);
-        const REAL e2d2 = e2.dot(e2);
         const REAL e0x12 = e0.cross(e1).squaredNorm();
 
         VECTOR3 outer, inner;

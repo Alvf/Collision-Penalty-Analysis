@@ -132,8 +132,16 @@ installed for the movie write to succeed. Note that JSON scene descriptions are 
  - `Q` or `Esc` will quit without saving anything.
 
 ## Matlab Verification
-Matlab scripts for testing the energies described in the paper are located in `Matlab_Verification.` Running any of the `Verify_[energy/length]` scripts
-will validate analytic expressions against numerical differences.
+Matlab scripts for testing the energies described in the paper are located in `Matlab_Verification.` Running any of the `Verify_[energy/length]` notebooks will validate analytic expressions against numerical differences.
+
+## C++ Unit Tests
+You can run unit tests for the C++ energy implementations like so:
+
+    cd projects/unitTests
+    make depend
+    make
+    cd ../../bin
+    ./unitTests
 
 ## Collision Eigenanalysis
 The files located in `src/Collision` contain C++ implementations of general energy eigenpairs and

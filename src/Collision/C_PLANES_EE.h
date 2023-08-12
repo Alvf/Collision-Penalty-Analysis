@@ -41,8 +41,6 @@ class C_PLANES_EE : public C_PLANES
         e0 = v[1] - v[0];
         e1 = v[3] - v[2];
 
-        VECTOR3 e0h = e0.normalized();
-
         const REAL al = e1.dot(e0)/e0.dot(e0);
         const REAL e0n2 = e0.dot(e0);
         VECTOR12 da_dx = VECTOR12::Zero();
