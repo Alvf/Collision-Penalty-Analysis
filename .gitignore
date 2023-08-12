@@ -1,0 +1,8 @@
+bin/*
+projects/build/
+projects/include_top.mk
+projects/simulateScene/build
+projects/simulateStrands/build
+projects/simulateStrandsCLI/build
+.vscode/
+.DS_Store
