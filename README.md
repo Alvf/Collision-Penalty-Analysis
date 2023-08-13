@@ -118,7 +118,7 @@ To make your life slightly easier, I have also included a [Gmsh](http://gmsh.inf
 
 # A Unified Analysis of Collision Penalty Energies - Codebase
 
-Hello! This repository demonstrates the analysis of various collision penalties as described in the SCA 2023 paper [A Unified Analysis of Collision-Penalty Energies](https://www.alvin.pizza/unified-analysis-penalty-energies)*, by Alvin Shi and Theodore Kim.
+Hello! This repository demonstrates the analysis of various collision penalties as described in the SCA 2023 paper [A Unified Analysis of Collision-Penalty Energies](https://www.alvin.pizza/unified-analysis-penalty-energies), by Alvin Shi and Theodore Kim.
 
 The simulator's basic structure is based off of HOBAK, from the SIGGRAPH 2022 Course *[Dynamic Deformables: Implementation and Production Practicalities (Now With Code!)](http://www.tkim.graphics/DYNAMIC_DEFORMABLES/)*, by Theodore Kim and David Eberle.
 
@@ -142,6 +142,8 @@ You can run unit tests for the C++ energy implementations like so:
     make
     cd ../../bin
     ./unitTests
+
+We put various vertex-face/edge-edge collision frame/length/energy arrangements through a finite-differencing comparison for gradients and Hessians. 
 
 ## Collision Eigenanalysis
 The files located in `src/Collision` contain C++ implementations of general energy eigenpairs and

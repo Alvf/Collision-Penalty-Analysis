@@ -10,7 +10,7 @@ This object is just a big parent.
 
 using namespace std;
 //To save some space, energy1D itself will just be the 1D signed length spring function.
-class CUBIC_SIGNED_SPRING1D : public ENERGY_1D
+class CUBIC_SIGNED_SPRING_1D : public ENERGY_1D
 {
 public:
     /* 
@@ -24,6 +24,12 @@ public:
     CUBIC_SIGNED_SPRING_1D(const REAL& mu, const REAL& collisionEps, const REAL& del) : 
       ENERGY_1D(mu, collisionEps), _del(del)
     {
+    }
+
+    CUBIC_SIGNED_SPRING_1D(const REAL& mu, const REAL& collisionEps) : 
+      ENERGY_1D(mu, collisionEps)
+    {
+        _del = 0.001;
     }
 
     // just a nice descriptive name

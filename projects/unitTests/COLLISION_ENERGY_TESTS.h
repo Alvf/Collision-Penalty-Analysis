@@ -211,10 +211,32 @@ TEST_CASE("Collision Energy tests", "[collision]" )
     REQUIRE(convergenceTestCollisionEnergyGradient(&vertexFaceEnergy, vertices) == true);
     REQUIRE(convergenceTestCollisionEnergyHessian(&vertexFaceEnergy, vertices) == true);
   }
+
+  SECTION("Testing cubic signed vertex-face collision energy")
+  {
+    CUBIC_SIGNED_SPRING_1D normalSpring(mu, collisionEps);
+    SIGNED_LEN_PLANES lengthFunc;
+    C_PLANES cFunc;
+    
+    ENERGY_12D vertexFaceEnergy(&normalSpring, &cFunc, &lengthFunc);
+    REQUIRE(convergenceTestCollisionEnergyGradient(&vertexFaceEnergy, vertices) == true);
+    REQUIRE(convergenceTestCollisionEnergyHessian(&vertexFaceEnergy, vertices) == true);
+  }
   
   SECTION("Testing unsigned vertex-face collision energy")
   {
     UNSIGNED_SPRING_1D normalSpring(mu, collisionEps);
+    UNSIGNED_LEN_PLANES lengthFunc;
+    C_PLANES cFunc;
+    
+    ENERGY_12D vertexFaceEnergy(&normalSpring, &cFunc, &lengthFunc);
+    REQUIRE(convergenceTestCollisionEnergyGradient(&vertexFaceEnergy, vertices) == true);
+    REQUIRE(convergenceTestCollisionEnergyHessian(&vertexFaceEnergy, vertices) == true);
+  }
+  
+  SECTION("Testing unsigned cubic spring vertex-face collision energy")
+  {
+    CUBIC_SIGNED_SPRING_1D normalSpring(mu, collisionEps);
     UNSIGNED_LEN_PLANES lengthFunc;
     C_PLANES cFunc;
     
@@ -234,9 +256,31 @@ TEST_CASE("Collision Energy tests", "[collision]" )
     REQUIRE(convergenceTestCollisionEnergyHessian(&edgeEdgeEnergy, vertices) == true);
   }
 
+  SECTION("Testing signed cubic spring edge-edge collision energy")
+  {
+    CUBIC_SIGNED_SPRING_1D normalSpring(mu, collisionEps);
+    SIGNED_LEN_PLANES lengthFunc;
+    C_PLANES_EE cFunc;
+    
+    ENERGY_12D edgeEdgeEnergy(&normalSpring, &cFunc, &lengthFunc);
+    REQUIRE(convergenceTestCollisionEnergyGradient(&edgeEdgeEnergy, vertices) == true);
+    REQUIRE(convergenceTestCollisionEnergyHessian(&edgeEdgeEnergy, vertices) == true);
+  }
+
   SECTION("Testing unsigned edge-edge collision energy")
   {
     UNSIGNED_SPRING_1D normalSpring(mu, collisionEps);
+    UNSIGNED_LEN_PLANES lengthFunc;
+    C_PLANES_EE cFunc;
+    
+    ENERGY_12D edgeEdgeEnergy(&normalSpring, &cFunc, &lengthFunc);
+    REQUIRE(convergenceTestCollisionEnergyGradient(&edgeEdgeEnergy, vertices) == true);
+    REQUIRE(convergenceTestCollisionEnergyHessian(&edgeEdgeEnergy, vertices) == true);
+  }
+
+  SECTION("Testing unsigned cubic spring edge-edge collision energy")
+  {
+    CUBIC_SIGNED_SPRING_1D normalSpring(mu, collisionEps);
     UNSIGNED_LEN_PLANES lengthFunc;
     C_PLANES_EE cFunc;
     

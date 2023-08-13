@@ -11,6 +11,7 @@
 #include "Collision/COLLISION_UTIL.h"
 #include "Collision/UNSIGNED_LEN_PLANES.h"
 #include "Collision/UNSIGNED_SPRING_1D.h"
+#include "Collision/CUBIC_SIGNED_SPRING_1D.h"
 #include "catch_amalgamated.hpp"
 
 using namespace HOBAK;
