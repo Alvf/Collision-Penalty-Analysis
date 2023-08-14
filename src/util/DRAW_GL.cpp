@@ -14,7 +14,6 @@ If not, see <https://www.gnu.org/licenses/>.
 */
 #include "util/DRAW_GL.h"
 #include <random>
-#include "Hyperelastic/Volume/ANISOTROPIC_ARAP.h"
 
 ///////////////////////////////////////////////////////////////////////
 // A bunch fo drawing routines for HOBAK objects, all in one place
