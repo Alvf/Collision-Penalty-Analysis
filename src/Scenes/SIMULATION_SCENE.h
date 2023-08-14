@@ -9,18 +9,6 @@
 #include "Geometry/CUBE.h"
 #include "Geometry/SPHERE.h"
 
-// volume classes
-#include "Geometry/TET_MESH.h"
-#include "Geometry/TET_MESH_FASTER.h"
-#include "Hyperelastic/Volume/SNH.h"
-#include "Hyperelastic/Volume/STVK.h"
-#include "Hyperelastic/Volume/ARAP.h"
-#include "Hyperelastic/Volume/LINEAR.h"
-#include "Timestepper/Volume/BACKWARD_EULER_VELOCITY.h"
-#include "Timestepper/Volume/BACKWARD_EULER_POSITION.h"
-#include "Timestepper/Volume/NEWMARK.h"
-#include "Timestepper/Volume/QUASISTATIC.h"
-
 // shell classes
 #include "Geometry/TRIANGLE_MESH.h"
 #include "Geometry/TRIANGLE_MESH_FASTER.h"
@@ -33,10 +21,6 @@
 #include "Hyperelastic/Shell/BENDING_SPRING.h"
 #include "Hyperelastic/Shell/QUADRATIC_F_BENDING.h"
 #include "Hyperelastic/Shell/DIHEDRAL.h"
-
-// strand classes
-#include "Geometry/TET_WISP_MESH.h"
-#include "Timestepper/Strand/TIMESTEPPER.h"
 
 // collision classes
 #include "Collision/C_PLANES_EE.h"
@@ -61,13 +45,7 @@ public:
     _frameNumber = 0;
     _normalizedVertices = false;
     _sceneName = std::string("default");
-    _initialA = MATRIX3::Identity();
-    _initialTranslation = VECTOR3::Zero();
 
-    // volume variables
-    _volumeSolver = NULL;
-    _tetMesh = NULL;
-    _hyperelastic = NULL;
     _gravity.setZero();
 
     // shell variables
@@ -75,15 +53,6 @@ public:
     _triangleMesh = NULL;
     _strechingEnergy = NULL;
     _bendingEnergy = NULL;
-
-    // strand variables
-    _strandSolver = NULL;
-    _strandMesh = NULL;
-    _E = -1;
-    _G = -1;
-    _density = -1;
-    _baseRadius = -1;
-    _tipRadius = -1;
 
     _movieInterval = -1;
     _autoplay = true;
@@ -101,10 +70,6 @@ public:
 
   virtual ~SIMULATION_SCENE()
   {
-    delete _tetMesh;
-    delete _volumeSolver;
-    delete _hyperelastic;
-
     delete _triangleMesh;
     delete _shellSolver;
     delete _strechingEnergy;
@@ -139,28 +104,10 @@ public:
   const int& frameNumber() const  { return _frameNumber; };
   const bool& drawFeature() const { return _drawFeature; };
   const int& arrowCounter() const { return _arrowCounter; };
-  const string& tetMeshFilename() const { return _tetMeshFilename; };
   const string& triangleMeshFilename() const { return _triangleMeshFilename; };
-  const string& strandMeshFilename() const { return _strandMeshFilename; };
   const vector<KINEMATIC_SHAPE*>& kinematicShapes() const { return _kinematicShapes; };
   const bool& normalizedVertices() const { return _normalizedVertices; };
   const bool& exitOnPause() const { return _exitOnPause; };
-
-  const MATRIX3& initialA() const           { return _initialA; };
-  const VECTOR3& initialTranslation() const { return _initialTranslation; };
-
-  REAL& E()              { return _E; };
-  const REAL& E() const  { return _E; };
-  //REAL& nu()             { return _nu; };
-  //const REAL& nu() const { return _nu; };
-  REAL& G()             { return _G; };
-  const REAL& G() const { return _G; };
-  REAL& strandDensity()             { return _density; };
-  const REAL& strandDensity() const { return _density; };
-  REAL& strandBaseRadius()             { return _baseRadius; };
-  const REAL& strandBaseRadius() const { return _baseRadius; };
-  REAL& strandTipRadius()             { return _tipRadius; };
-  const REAL& strandTipRadius() const { return _tipRadius; };
 
   VECTOR3& eye()         { return _eye; };
   VECTOR3& lookAt()      { return _lookAt; };
@@ -173,9 +120,7 @@ public:
   int& arrowCounter()    { return _arrowCounter; };
   bool& leftArrow()      { return _leftArrow; };
   bool& rightArrow()     { return _rightArrow; };
-  string& tetMeshFilename()  { return _tetMeshFilename; };
   string& triangleMeshFilename() { return _triangleMeshFilename; };
-  string& strandMeshFilename() { return _strandMeshFilename; };
   bool& normalizedVertices() { return _normalizedVertices; };
   vector<KINEMATIC_SHAPE*>& kinematicShapes() { return _kinematicShapes; };
 
@@ -184,32 +129,17 @@ public:
   const string jsonName() const  { return _sceneName + std::string(".json"); };
   const bool autoplay() const { return _autoplay; };
 
-  const VOLUME::TIMESTEPPER* solver() const { return _volumeSolver; };
-  VOLUME::TIMESTEPPER* solver()             { return _volumeSolver; };
   const SHELL::TIMESTEPPER* shellSolver() const { return _shellSolver; };
   SHELL::TIMESTEPPER* shellSolver()             { return _shellSolver; };
-  const STRAND::TIMESTEPPER* strandSolver() const { return _strandSolver; };
-  STRAND::TIMESTEPPER* strandSolver()             { return _strandSolver; };
-  const TET_MESH* tetMesh() const { return _tetMesh; };
-  TET_MESH* tetMesh()             { return _tetMesh; };
   const TRIANGLE_MESH* triangleMesh() const { return _triangleMesh; };
   TRIANGLE_MESH* triangleMesh()             { return _triangleMesh; };
-  const STRAND_MESH* strandMesh() const { return _strandMesh; };
-  STRAND_MESH* strandMesh()             { return _strandMesh; };
 
   // simulation loop
   virtual void stepSimulation(const bool verbose = true) {
-    // _volumeSolver->externalForces().setZero();
-    // _volumeSolver->addGravity(_gravity);
-    // _volumeSolver->solve(verbose);
-
-    // if (_writeToFile) {
-    //   if (!writeFrameToFile()) {
-    //     // Do something here that isn't too noisy.
-    //   }
-    // }
-
-    // _frameNumber++;
+    _shellSolver->externalForces().setZero();
+    _shellSolver->addGravity(_gravity);
+    _shellSolver->solve(verbose);
+    _frameNumber++;
   };
 
   // should we write a movie at this frame?
@@ -234,7 +164,7 @@ public:
   virtual void drawScene()
   {
     glEnable(GL_DEPTH_TEST);
-    drawSurfaceTriangles(*_tetMesh, true);
+    drawTriangleMesh(*_triangleMesh, true);
     for (unsigned int x = 0; x < _kinematicShapes.size(); x++)
       drawKinematicShape(*_kinematicShapes[x]);
   };
@@ -274,43 +204,17 @@ public:
   }
 
 protected:
-  // set the positions to previous timestep, in case the user wants to
-  // look at that instead of the current step
-  void setToPreviousTimestep()
-  {
-    const VECTOR& old = _volumeSolver->positionOld();
-    _tetMesh->setDisplacement(old);
-  }
-
-  // restore positions from previous timestep, in case the user just drew
-  // the previous timestep, but now we want the state to be consistent
-  // when drawing the next frame
-  void restoreToCurrentTimestep()
-  {
-    const VECTOR& current = _volumeSolver->position();
-    _tetMesh->setDisplacement(current);
-  }
-
   // scene geometry
-  TET_MESH* _tetMesh;
   TRIANGLE_MESH* _triangleMesh;
-  TET_WISP_MESH* _strandMesh;
   vector<KINEMATIC_SHAPE*> _kinematicShapes;
 
   // solver and materials
-  VOLUME::TIMESTEPPER* _volumeSolver;
-  VOLUME::HYPERELASTIC* _hyperelastic;
   SHELL::TIMESTEPPER* _shellSolver;
   SHELL::STRETCHING* _strechingEnergy;
   SHELL::BENDING* _bendingEnergy;
-  STRAND::TIMESTEPPER* _strandSolver;
   
   // simulation parameters
   VECTOR3 _gravity;
-
-  // initial rotation-scale and translation of tet mesh
-  MATRIX3 _initialA;
-  VECTOR3 _initialTranslation;
 
   // drawing parameters
   int _pauseFrame;
@@ -332,9 +236,7 @@ protected:
   bool _writeToFile = false;
 
   // geometry filenames
-  string _tetMeshFilename;
   string _triangleMeshFilename;
-  string _strandMeshFilename;
 
   // did we normalize the vertices when we read them in?
   bool _normalizedVertices;
@@ -359,16 +261,6 @@ protected:
  
   // what interval should we write out a movie at?
   int _movieInterval;
- 
-  // Young's modulus and shear modulus for STRANDS
-  REAL _E;
-  //REAL _nu;     // let's prefer shear modulus to Poisson's ratio
-  REAL _G;
-
-  // strand thickness and mass parameters
-  REAL _density;
-  REAL _baseRadius;
-  REAL _tipRadius;
 
   // vertex-face collision support
   ENERGY_1D* _normalSpring;
