@@ -55,18 +55,11 @@ public:
         getVecs(c, e0p, e1p, e2p);
         // Eigenconstruction
         const REAL u = e2p.norm();
-        
-        const REAL laml0 = 1/u;
 
         MATRIX9 hess = MATRIX9::Zero();
         
-        VECTOR9 q0 = VECTOR9::Zero();
-        q0.block<3,1>(6,0) = e0p.normalized();
-        hess += laml0*q0*q0.transpose();
-
-        VECTOR9 q1 = VECTOR9::Zero();
-        q1.block<3,1>(6,0) = e1p.normalized();
-        hess += laml0*q1*q1.transpose();
+        MATRIX3 projBlock = MATRIX3::Identity() - e2p*e2p.transpose()/(u*u);
+        hess.block<3,3>(6,6) = projBlock/u;
 
         return hess;
     }
@@ -85,13 +78,8 @@ public:
             return hess;
         }
         
-        VECTOR9 q0 = VECTOR9::Zero();
-        q0.block<3,1>(6,0) = e0p.normalized();
-        hess += s*laml0*q0*q0.transpose();
-
-        VECTOR9 q1 = VECTOR9::Zero();
-        q1.block<3,1>(6,0) = e1p.normalized();
-        hess += s*laml0*q1*q1.transpose();
+        MATRIX3 projBlock = MATRIX3::Identity() - e2p*e2p.transpose()/(u*u);
+        hess.block<3,3>(6,6) = s*laml0*projBlock;
 
         return hess;
     }
