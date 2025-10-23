@@ -30,3 +30,7 @@ We put various vertex-face/edge-edge collision frame/length/energy arrangements 
 ## Collision Eigenanalysis
 The files located in `src/Collision` contain C++ implementations of general energy eigenpairs and
 secondary term handling. Feel free to swap out different frames, 1D energies, and lengths to get different qualitative results by modifying/making your own `setCollision()`-like functions in `src/Scenes/SIMULATION_SCENE.h`.
+
+## FAQ
+### Where is include_top.mk?
+It gets made when `make linux` or `make mac` are run!
